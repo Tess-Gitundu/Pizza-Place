@@ -7,8 +7,17 @@
 }
 .section1 h1 {
     position: absolute;
-    color: rgb(241, 13, 13);
-    top: 45vh;
+    color: rgb(199, 0, 0);
+    top: 35vh;
     left: 50%;
     font-size: 150px;
+    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
+}
+.section1 h6 {
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    font-size: 48px;
+    color: rgb(241, 13, 13);
+    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 }
