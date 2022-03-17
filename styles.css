@@ -5,3 +5,10 @@
 .section1 img {
    width: 100%;
 }
+.section1 h1 {
+    position: absolute;
+    color: rgb(241, 13, 13);
+    top: 45vh;
+    left: 50%;
+    font-size: 150px;
+}
