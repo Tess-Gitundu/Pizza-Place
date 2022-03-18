@@ -28,11 +28,11 @@ body {
 }
 /* the about us section */
 
-.about {
+.about h1{
     text-align: center;
     color: white;
-    padding: 45px;
-    font-size: 40px;
+    padding: 65px;
+    font-size: 60px;
     font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 
 }
@@ -46,5 +46,13 @@ body {
     justify-content: space-between;
 }
 #container div {
-    width: 500px;
+    width: 700px;
+}
+.pabout {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    padding: 45px;
+    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 }
