@@ -81,3 +81,8 @@ body {
     width: 200px;
     height: 200px;
 }
+.menu h1{
+    text-align: center;
+    color: white;
+    padding: 65px;
+    font-size: 60px;
