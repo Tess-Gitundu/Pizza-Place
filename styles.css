@@ -5,6 +5,7 @@
 /* the whole body */
 body {
     background-color: wheat;
+    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 }
 /* landing page */
 .section1 img {
@@ -16,7 +17,6 @@ body {
     top: 35vh;
     left: 50%;
     font-size: 150px;
-    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 }
 .section1 h6 {
     position: absolute;
@@ -24,7 +24,6 @@ body {
     left: 50%;
     font-size: 48px;
     color: rgb(241, 13, 13);
-    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 }
 /* the about us section */
 
@@ -33,7 +32,6 @@ body {
     color: white;
     padding: 65px;
     font-size: 60px;
-    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
 
 }
 #container {
@@ -48,11 +46,38 @@ body {
 #container div {
     width: 700px;
 }
+
 .pabout {
     position: relative;
     text-align: center;
     font-size: 25px;
     margin: auto;
     padding: 45px;
-    font-family: 'Cormorant Garamond', serif; Light 300 Italic;
+}
+/* our menu section */
+#container2 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+    border: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#container2 img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+#container3 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 250px;
+    border: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#container3 img {
+    display: flex;
+    width: 200px;
+    height: 200px;
 }
