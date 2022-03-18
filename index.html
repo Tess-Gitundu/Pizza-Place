@@ -76,15 +76,15 @@
         <div id="container4">
             <div class="small">
             <img src="images/small pizza.png" alt="">
-            <h3>Small</h3>
+            <h3>Small <br> Ksh 500</h3>
             </div>
             <div class="medium">
                 <img src="images/small pizza.png" alt="">
-                <h3>Medium</h3>
+                <h3>Medium <br> Ksh 800</h3>
             </div>
             <div class="large">
                 <img src="images/small pizza.png" alt="">
-                <h3>Large</h3>
+                <h3>Large <br> Ksh 1000</h3>
             </div>
         </div>
         <!-- Make order section -->
@@ -92,6 +92,7 @@
             <h1>Make your Order</h1>
         </div>
         <div id="container5">
+        <label for="choose"><h3>Your Choice of Pizza</h3></label>
         <select class="form-select" aria-label="Default select example">
                 <option value="hawaiian">Hawaiian</option>
                 <option value="bbq">BBQ Chicken Pizza</option>
@@ -102,6 +103,29 @@
                 <option value="supreme">Supreme Pizza</option>
                 <option value="works">The Works Pizza</option>
           </select>
+          <label for="size"><h3>Size</h3></label>
+          <select class="form-select" aria-label="Default select example">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+          </select>
+          <label for="crust"><h3>Crust</h3></label>
+          <select class="form-select" aria-label="Default select example">
+                <option value="crispy">Crispy</option>
+                <option value="stuffed">Stuffed</option>
+                <option value="Gluten">Gluten Free</option>
+          </select>
+          <label for="toppings"><h3>Toppings</h3></label>
+          <select class="form-select" aria-label="Default select example">
+            <option value="cheese">Extra Cheese</option>
+            <option value="bacon">Extra Bacon</option>
+            <option value="veggies">Extra Veggies</option>
+            <option value="chicken">Extra Chicken</option>
+            <option value="olives">Extra Black Olives</option>
+            <option value="mushrooms">Extra Mushrooms and Garlic</option>
+      </select>
+      <label for="number"><h3>Number of Pizzas</h3></label>
+      <input type="number" class="form-control" placeholder="No. Of Pizzas" aria-label="Username">
         </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
