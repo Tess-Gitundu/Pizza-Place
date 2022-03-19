@@ -37,8 +37,6 @@ pricesArray = [
   parseInt(pizzaToppingsPrice.extraBacon),
   parseInt(pizzaToppingsPrice.extraVeggies),
 ];
-var customerName = document.getElementById("name").value;
-var customerLocation = document.getElementById("location").value;
 // user interface logic 
 
 $(document).ready(function() {
@@ -144,9 +142,10 @@ $(document).ready(function() {
       
     });
   }); 
-  
-
   function deliver() {
-    alert("Hi" + customerName + " your order will be delivered to" + customerLocation);
+  var inputtedName = document.getElementById("Name").value;
+  var customerLocation = document.getElementById("location").value;
+
+    alert("Hi " + inputtedName + " your order will be delivered to " + customerLocation);
   }
   
