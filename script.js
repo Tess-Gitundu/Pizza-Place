@@ -9,6 +9,7 @@ function Summary(choice, size, crust, toppings, number){
 Summary.prototype.orderSummary = function() {
   return this.choiceOfPizza + "<br> " + this.size + "<br>" + this.crust  + "<br>" + this.toppings + "<br>" + this.number;
 }
+
 var pizzaSizePrice = {
   small: 500,
   medium: 800,
@@ -36,6 +37,8 @@ pricesArray = [
   parseInt(pizzaToppingsPrice.extraBacon),
   parseInt(pizzaToppingsPrice.extraVeggies),
 ];
+var customerName = document.getElementById("name").value;
+var customerLocation = document.getElementById("location").value;
 // user interface logic 
 
 $(document).ready(function() {
@@ -141,3 +144,9 @@ $(document).ready(function() {
       
     });
   }); 
+  
+
+  function deliver() {
+    alert("Hi" + customerName + " your order will be delivered to" + customerLocation);
+  }
+  
