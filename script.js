@@ -131,7 +131,7 @@ $(document).ready(function() {
         }
       }
   
-      $("ul#order").append("<li><span class='summary'>" + newSummary.orderSummary() + " " +sum + "</span></li>");
+      $("ul#order").append("<li><span class='summary'>" + newSummary.orderSummary() + " " +sum*inputtedNumber + "</span></li>");
   
       $("select#new-choice-of-pizza").val("");
       $("select#new-size").val("");
